@@ -1,0 +1,12 @@
+<svg id="cards" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.77 32.71"><defs><style>
+  .cls-1{fill:#fff200;stroke:#fff200;}.cls-1:hover{fill:black;},.cls-2{stroke-miterlimit:10;}.cls-2{fill:#ed1c24;stroke:#ed1c24;} .cls-2:hover{fill:black;}
+</style>
+<script>
+  let theCards= document.querySelector("#cards");
+
+  function logMyId() {
+  console.log("clicked on an element:", this.id); }
+
+  theCards.addEventListener("click", logMyId);
+</script>
+</defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><g id="cards"><rect id="cards-2" data-name="cards" class="cls-1" x="20.49" y="0.5" width="15.78" height="24.51"/><rect id="cards-3" data-name="cards" class="cls-2" x="3.97" y="5.75" width="15.78" height="24.51" transform="translate(-4.9 4.44) rotate(-17.65)"/></g></g></g></svg>

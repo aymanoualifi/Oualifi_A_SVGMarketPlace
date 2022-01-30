@@ -1,0 +1,13 @@
+<svg id="field" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41.69 55.11"><defs>
+  <style>.cls-1{fill:none;stroke:#ed1c24;stroke-miterlimit:10;stroke-width:2px;}
+  #field:hover .cls-1 {fill:black;}
+  </style>
+<script>
+  let theField= document.querySelector("#field");
+
+  function logMyId() {
+  console.log("clicked on an element:", this.id); }
+
+  theField.addEventListener("click", logMyId);
+</script>
+</defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><g id="field"><line id="field-2" data-name="field" class="cls-1" x1="1.04" y1="1" x2="41.31" y2="1"/><line id="field-3" data-name="field" class="cls-1" x1="11.39" y1="11.41" x2="29.55" y2="11.43"/><line id="field-4" data-name="field" class="cls-1" x1="11.38" y1="2.02" x2="11.39" y2="12.44"/><line id="field-5" data-name="field" class="cls-1" x1="29.77" y1="2" x2="29.78" y2="12.42"/><line id="fiield" class="cls-1" x1="31.73" y1="43.95" x2="12.58" y2="44"/><line id="field-6" data-name="field" class="cls-1" x1="31.73" y1="43.95" x2="12.58" y2="44"/><line id="field-7" data-name="field" class="cls-1" x1="40.07" y1="27.5" x2="1.02" y2="27.6"/><line id="field-8" data-name="field" class="cls-1" x1="30.73" y1="53.34" x2="30.7" y2="42.91"/><line id="field-9" data-name="field" class="cls-1" x1="12.37" y1="53.39" x2="12.34" y2="42.97"/><line id="field-10" data-name="field" class="cls-1" x1="1.04" y1="54.11" x2="41.51" y2="54.11"/><line id="field-11" data-name="field" class="cls-1" x1="1" y1="0.02" x2="1.04" y2="55.1"/><line id="fiield-2" data-name="fiield" class="cls-1" x1="40.41" y1="0.02" x2="40.69" y2="55.07"/><circle id="field-12" data-name="field" class="cls-1" cx="21.36" cy="27.63" r="6.3"/></g></g></g></svg>

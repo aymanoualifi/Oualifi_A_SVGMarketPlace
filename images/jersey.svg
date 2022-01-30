@@ -1,0 +1,15 @@
+<svg id="jersey" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.65 58.63"><defs>
+  <style>
+    #jersey:hover .cls-2 {fill:black;}
+    #jersey:hover .cls-3 {fill:black;}
+    .cls-1{fill:none;}.cls-1,.cls-2{stroke:#ed1c24;stroke-miterlimit:10;}.cls-2,.cls-3{fill:#ed1c24;}.cls-3{font-size:30.41px;font-family:MyriadPro-Regular, Myriad Pro;}
+  </style>
+  <script>
+    let theJersey= document.querySelector("#jersey");
+
+    function logMyId() {
+    console.log("clicked on an element:", this.id); }
+
+    theJersey.addEventListener("click", logMyId);
+  </script>
+</defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><g id="jersey"><line id="jersey-2" data-name="jersey" class="cls-1" x1="22.12" y1="8.12" x2="5.42" y2="30.38"/><line id="jersey-3" data-name="jersey" class="cls-1" x1="0.81" y1="27.03" x2="9.33" y2="34.37"/><line id="jersey-4" data-name="jersey" class="cls-1" x1="9.33" y1="34.37" x2="17.26" y2="26.22"/><line id="jersey-5" data-name="jersey" class="cls-1" x1="0.81" y1="27.03" x2="19.79" y2="4.6"/><line id="jersey-6" data-name="jersey" class="cls-1" x1="19.6" y1="4.74" x2="27.23" y2="2.01"/><line id="jersey-7" data-name="jersey" class="cls-1" x1="17.05" y1="26.59" x2="17.05" y2="58.6"/><line id="jersey-8" data-name="jersey" class="cls-1" x1="48.95" y1="7.55" x2="65.35" y2="29.12"/><line id="jersey-9" data-name="jersey" class="cls-1" x1="69.95" y1="26.6" x2="61.43" y2="33.94"/><line id="jersey-10" data-name="jersey" class="cls-1" x1="61.43" y1="33.94" x2="53.25" y2="25.53"/><line id="jersey-11" data-name="jersey" class="cls-1" x1="69.95" y1="26.6" x2="50.97" y2="4.17"/><line id="jersey-12" data-name="jersey" class="cls-1" x1="51.15" y1="4.29" x2="43.53" y2="1.58"/><line id="jersey-13" data-name="jersey" class="cls-1" x1="53.47" y1="25.91" x2="53.47" y2="57.97"/><line id="jersey-14" data-name="jersey" class="cls-1" x1="17.08" y1="58.13" x2="53.96" y2="57.97"/><rect id="jersey-15" data-name="jersey" class="cls-2" x="26.91" y="0.5" width="16.62" height="2.16" rx="0.02"/><rect id="jersey-16" data-name="jersey" class="cls-2" x="-0.28" y="29.77" width="11.39" height="1.22" transform="translate(21.13 3.82) rotate(40.72)"/><rect id="jersey-17" data-name="jersey" class="cls-2" x="59.7" y="29.33" width="11.31" height="1.22" transform="translate(133.82 8.04) rotate(137.64)"/><text id="jersey-18" data-name="jersey" class="cls-3" transform="translate(27.27 39.73)">9</text><line id="jersey-19" data-name="jersey" class="cls-1" x1="22.04" y1="8.18" x2="30.03" y2="2.56"/><line id="jersey-20" data-name="jersey" class="cls-1" x1="49.05" y1="7.6" x2="40.36" y2="2.66"/></g></g></g></svg>

@@ -1,0 +1,18 @@
+<svg id="timer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.01 36.92"><defs>
+  <style>
+    #timer:hover .cls-1 {fill:black;}
+    #timer:hover .cls-2 {fill:black;}
+    #timer:hover .cls-3 {fill:black;}
+    #timer:hover .cls-4 {fill:black;}
+    #timer:hover .cls-5 {fill:black;}
+    #timer:hover .cls-6 {fill:black;}
+    .cls-1,.cls-2{fill:#ed1c24;}.cls-1,.cls-2,.cls-3,.cls-5,.cls-6{stroke:#ed1c24;stroke-miterlimit:10;}.cls-2,.cls-3{stroke-width:2px;}.cls-3,.cls-6{fill:none;}.cls-4,.cls-5{fill:#fff;}.cls-5{stroke-width:0.25px;}.cls-6{stroke-width:4px;}</style>
+  <script>
+    let theTimer= document.querySelector("#timer");
+
+    function logMyId() {
+    console.log("clicked on an element:", this.id); }
+
+    theTimer.addEventListener("click", logMyId);
+  </script>
+</defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><g id="timer"><circle id="timer-2" data-name="timer" class="cls-1" cx="4.88" cy="9.94" r="1.41"/><circle id="timer-3" data-name="timer" class="cls-2" cx="15.51" cy="21.34" r="10.63"/><circle id="timer-4" data-name="timer" class="cls-3" cx="15.51" cy="21.41" r="14.51"/><rect id="timer-5" data-name="timer" class="cls-4" x="5.79" y="18.93" width="19.57" height="6.32"/><g id="timer-6" data-name="timer"><path class="cls-5" d="M11.83,24.11a1.1,1.1,0,0,1-1-.54A2.78,2.78,0,0,1,10.51,22a3.18,3.18,0,0,1,.36-1.68,1.2,1.2,0,0,1,1.06-.58c.87,0,1.31.72,1.31,2.16a3,3,0,0,1-.37,1.63A1.18,1.18,0,0,1,11.83,24.11Zm.07-3.94q-.9,0-.9,1.83c0,1.13.29,1.7.88,1.7s.87-.58.87-1.73S12.47,20.17,11.9,20.17Z"/><path class="cls-5" d="M14.14,21.62a.33.33,0,0,1-.23-.09.36.36,0,0,1-.09-.24.29.29,0,0,1,.09-.22.3.3,0,0,1,.23-.1.31.31,0,0,1,.24.1.29.29,0,0,1,.09.22.36.36,0,0,1-.09.24A.34.34,0,0,1,14.14,21.62Zm0,2.48a.3.3,0,0,1-.23-.1.32.32,0,0,1-.09-.23.33.33,0,0,1,.09-.23.3.3,0,0,1,.23-.1.31.31,0,0,1,.24.1.33.33,0,0,1,.09.23.32.32,0,0,1-.09.23A.31.31,0,0,1,14.14,24.1Z"/><path class="cls-5" d="M16.37,24.11a1.11,1.11,0,0,1-1-.54A2.87,2.87,0,0,1,15,22a3.08,3.08,0,0,1,.37-1.68,1.17,1.17,0,0,1,1.05-.58q1.32,0,1.32,2.16a3,3,0,0,1-.37,1.63A1.2,1.2,0,0,1,16.37,24.11Zm.06-3.94c-.6,0-.89.61-.89,1.83s.29,1.7.88,1.7.87-.58.87-1.73S17,20.17,16.43,20.17Z"/><path class="cls-5" d="M19.6,24.11a1.1,1.1,0,0,1-1-.54A2.78,2.78,0,0,1,18.28,22a3.18,3.18,0,0,1,.36-1.68,1.19,1.19,0,0,1,1.06-.58c.87,0,1.31.72,1.31,2.16a3,3,0,0,1-.37,1.63A1.18,1.18,0,0,1,19.6,24.11Zm.07-3.94q-.9,0-.9,1.83c0,1.13.29,1.7.88,1.7s.87-.58.87-1.73S20.24,20.17,19.67,20.17Z"/></g><line id="timer-7" data-name="timer" class="cls-6" x1="15.58" y1="6.7" x2="15.58" y2="1.94"/><line id="timer-8" data-name="timer" class="cls-3" x1="10.51" y1="1" x2="21.01" y2="1"/></g></g></g></svg>

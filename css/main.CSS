@@ -1,0 +1,42 @@
+body {font: 12px; }
+
+.hidden {display: none;}
+
+.header1 {
+  color: red;
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+  font-size: 2.5em;
+  background-color: black;
+
+}
+.header1 h3{
+  font-size: 1em;
+  padding: 5px;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+#svg-grid {
+  display: grid;
+  padding: 50px 70px 50px 70px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 18px;
+}
+
+.container { display: flex; flex-direction: column;
+}
+.container img { width: 100%; }
+.container svg { width: 100%; }
+.container {
+  padding: 10px;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 5px solid #000;
+  border-left: 1px solid #000;
+  border-radius: 20px;
+}

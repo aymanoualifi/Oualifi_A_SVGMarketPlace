@@ -1,0 +1,13 @@
+<svg id="goalkeeper" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.33 30.1"><defs>
+  <style>.cls-1{fill:#ed1c24;stroke:#ed1c24;stroke-miterlimit:10;}
+#goalkeeper:hover .cls-1{fill:black;}
+  </style>
+  <script>
+    let theGoalkeeper= document.querySelector("#goalkeeper");
+
+    function logMyId() {
+    console.log("clicked on an element:", this.id); }
+
+    theGoalkeeper.addEventListener("click", logMyId);
+  </script>
+</defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><g id="goalkeeper"><path id="goalkeeper-2" data-name="goalkeeper" class="cls-1" d="M7.51,3.64A1.75,1.75,0,0,0,9.66.87,1.75,1.75,0,0,0,7.51,3.64Z"/><path id="goalkeeper-3" data-name="goalkeeper" class="cls-1" d="M15.68,6h0a.38.38,0,0,0-.54.07l-6.22,8h-1L7.4,12.58l.27,0a1.41,1.41,0,0,0,0-2.82,1.43,1.43,0,0,0-1,.47l-2-6.2A.4.4,0,0,0,4.1,3.8a.39.39,0,0,0-.24.49l3.22,9.77H7v6.65L.58,29a.39.39,0,0,0,.61.47L7.79,21h2.37V14.06H9.89l5.86-7.54A.38.38,0,0,0,15.68,6Z"/><path id="goalkeeper-4" data-name="goalkeeper" class="cls-1" d="M9.09,21.48V26a.42.42,0,0,0,0,.16L7.5,28.12a.54.54,0,0,0,.06.75h0a.54.54,0,0,0,.75-.06l1.72-2a.54.54,0,0,0,.09-.53.65.65,0,0,0,0-.21V21.48a.54.54,0,0,0-1.07,0Z"/></g></g></g></svg>

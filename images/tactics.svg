@@ -1,0 +1,15 @@
+<svg id="tactics" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84.6 68.41"><defs>
+  <style>
+    #tactics:hover .cls-1 {fill:black;}
+    #tactics:hover .cls-3 {fill:black;}
+
+    .cls-1{fill:#fff;}.cls-1,.cls-2,.cls-3{stroke:#ed1c24;stroke-miterlimit:10;}.cls-2,.cls-3{fill:none;}.cls-3{stroke-width:2px;}</style>
+  <script>
+    let theTactics = document.querySelector("#tactics");
+
+    function logMyId() {
+    console.log("clicked on an element:", this.id); }
+
+    theTactics.addEventListener("click", logMyId);
+  </script>
+</defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><g id="tactics"><circle id="tactics-2" data-name="tactics" class="cls-1" cx="13.79" cy="35.23" r="5.07"/><circle id="tactics-3" data-name="tactics" class="cls-1" cx="67.7" cy="39.69" r="5.07"/><circle id="tactics-4" data-name="tactics" class="cls-1" cx="31.14" cy="62.84" r="5.07"/><path id="tactics-5" data-name="tactics" class="cls-2" d="M58.92,42S51.82,43.64,49.4,44a69.23,69.23,0,0,1-10.69.44c-4.79-.25-.39.32-6.94-.53-4.44-.58-7.85-5.53-7.85-5.53"/><line id="tactics-6" data-name="tactics" class="cls-2" x1="54.69" y1="24.91" x2="48.6" y2="32.5"/><line id="tactics-7" data-name="tactics" class="cls-2" x1="48.6" y1="24.91" x2="54.69" y2="32.5"/><line id="tactics-8" data-name="tactics" class="cls-2" x1="20.23" y1="47.85" x2="14.14" y2="55.44"/><line id="tactics-9" data-name="tactics" class="cls-2" x1="14.14" y1="47.85" x2="20.23" y2="55.44"/><line id="tactics-10" data-name="tactics" class="cls-2" x1="23.58" y1="38.52" x2="24.64" y2="44.22"/><line id="tactics-11" data-name="tactics" class="cls-2" x1="23.21" y1="38.25" x2="29.07" y2="39.78"/><line id="tactics-12" data-name="tactics" class="cls-3" y1="1" x2="84.6" y2="1"/><line id="tactics-13" data-name="tactics" class="cls-3" x1="24.93" y1="2.02" x2="24.93" y2="16.66"/><line id="tactics-14" data-name="tactics" class="cls-3" x1="59.06" y1="16.27" x2="23.93" y2="16.17"/><line id="tactics-15" data-name="tactics" class="cls-3" x1="58.06" y1="0.62" x2="58.06" y2="17.19"/><path id="tactics-16" data-name="tactics" class="cls-2" d="M40.81,63.53S46,62.18,47.69,61.6a47.14,47.14,0,0,0,7-3.41c3-1.81.37.08,4.23-2.74,2.62-1.91,2.89-6.35,2.89-6.35"/><line id="tactics-17" data-name="tactics" class="cls-2" x1="61.85" y1="49.59" x2="63.37" y2="53.7"/><line id="tactics-18" data-name="tactics" class="cls-2" x1="61.98" y1="49.28" x2="58.82" y2="52.31"/></g></g></g></svg>
